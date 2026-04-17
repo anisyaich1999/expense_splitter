@@ -1,6 +1,6 @@
 const { MongoClient } = require("mongodb");
 
-const client = new MongoClient(process.env.MONGO_URL);
+const client = new MongoClient(process.env.MONGO_URI);
 
 let db;
 
